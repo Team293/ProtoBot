@@ -9,6 +9,7 @@
 // it from being updated in the future.
 package frc.robot;
 
+import edu.wpi.first.wpilibj.PneumaticsModuleType;
 /**
  * The Constants class provides a convenient place for teams to hold robot-wide numerical or boolean
  * constants.  This class should not be used for any other purpose.  All constants should be
@@ -163,5 +164,10 @@ public class Constants
         public static final int HIGH_PRESSURE_RETRACTION_SOLENOID = 2;
         public static final int LOW_PRESSURE_EXTENSION_SOLENOID = 5;
         public static final int HIGH_PRESSURE_EXTENSION_SOLENOID = 3;
+    }
+
+    public static final class PneumaticConstants
+    {
+        public static final PneumaticsModuleType PNUEMATIC_MODULE_TYPE = PneumaticsModuleType.CTREPCM;
     }
 }
